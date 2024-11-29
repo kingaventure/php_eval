@@ -19,9 +19,14 @@
 
         <body>
             <?php
-
+                if(isset($_GET['component'])) {
+                    $componentName = cleanString($_GET['component']);
+                    if(file_exists("Controller/$componentName.php")){
+                        require "Controller/$componentName.php";
+                    }
+                }
                 require "partials/errors.php";
-                
+
             ?>
         </body>
 

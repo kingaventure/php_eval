@@ -27,82 +27,40 @@
     <div class="row mt-5">
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php  echo $user[1]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[1]['content'] ?></p>
                     <a href="page.html" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php  echo $user[2]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[2]['content'] ?></p>
                     <a href="page.html" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php  echo $user[3]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[3]['content'] ?></p>
                     <a href="page.html" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php  echo $user[4]['title']?></h5>
+                    <p class="card-text"><?php  echo $user[4]['content'] ?></p>
                     <a href="page.html" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
@@ -111,40 +69,82 @@
     <div class="row mt-5">
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php  echo $user[5]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[5]['content'] ?></p>
                     <a href="page.html" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php  echo $user[6]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[6]['content'] ?></p>
                     <a href="page.html" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php  echo $user[7]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[7]['content'] ?></p>
                     <a href="page.html" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="image.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php  echo $user[8]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[8]['content'] ?></p>
+                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="article.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><?php  echo $user[9]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[9]['content'] ?></p>
+                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="article.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><?php  echo $user[10]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[10]['content'] ?></p>
+                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="article.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><?php  echo $user[11]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[11]['content'] ?></p>
+                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="article.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><?php  echo $user[12]['title'] ?></h5>
+                    <p class="card-text"><?php  echo $user[12]['content'] ?></p>
                     <a href="page.html" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
