@@ -1,8 +1,19 @@
 <?php foreach($articles as $article): ?>
     <div class="row mt-3">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="article.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php  echo $article['title'] ?></h5>
+                        <p class="card-text"><?php  echo $article['content'] ?></p>
+                        <a href="page.html" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
         <div class="col">
             <div class="card" style="width: 18rem;">
-            <img src="article.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?php  echo $article['title'] ?></h5>
                     <p class="card-text"><?php  echo $article['content'] ?></p>
@@ -13,18 +24,7 @@
 
         <div class="col">
             <div class="card" style="width: 18rem;">
-            <img src="article.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><?php  echo $article['title'] ?></h5>
-                    <p class="card-text"><?php  echo $article['content'] ?></p>
-                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-            <img src="article.jpg" class="card-img-top" alt="...">
+                <img src="article.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?php  echo $article['title'] ?></h5>
                     <p class="card-text"><?php  echo $article['content'] ?></p>
@@ -37,17 +37,17 @@
 
     <div class="row mt-5">
         <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-                <li class="page-item disabled">
-                    <a class="page-link">Previous</a>
-                </li>
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+            </li>
                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                 <li class="page-item"><a class="page-link" href="#">2</a></li>
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
                 <li class="page-item">
                     <a class="page-link" href="#">Next</a>
                 </li>
-            </ul>
+        </ul>
         </nav>
     </div>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
