@@ -10,6 +10,29 @@
                 </div>
             </div>
         </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="article.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><?php  echo $article['title'] ?></h5>
+                    <p class="card-text"><?php  echo $article['content'] ?></p>
+                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="article.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><?php  echo $article['title'] ?></h5>
+                    <p class="card-text"><?php  echo $article['content'] ?></p>
+                    <a href="page.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
 <?php endforeach; ?>
 
     <div class="row mt-5">
