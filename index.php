@@ -19,6 +19,7 @@
 
         <body>
             <?php
+                require "partials/navbar.php";
                 if(isset($_GET['component'])) {
                     $componentName = cleanString($_GET['component']);
                     if(file_exists("Controller/$componentName.php")){
